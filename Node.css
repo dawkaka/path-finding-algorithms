@@ -1,0 +1,47 @@
+.node {
+  border: 1px solid black;
+  font-size: 6px;
+  font-weight: bold;
+  width: 10px;
+  height: 8px;
+  overflow: hidden;
+}
+.start-node{
+background-color: green;
+}
+.finish-node{
+background-color: red;
+}
+.wall-node {
+  background-color: black;
+  animation-name: animatewall;
+  animation-duration: .1s;
+}
+.path-node{
+  background-color: yellow;
+  animation-name: animatepathnode;
+  animation-duration: 2s
+}
+.visited-node{
+  background-color: dodgerblue;
+  animation-name: animatevisited;
+  animation-duration: .1s;
+}
+.queue-node {
+  background-color: brown;
+}
+.weight-node{
+  background-color: darkblue;
+}
+@keyframes animatevisited {
+from{background-color: aqua;}
+to{background-color: aliceblue;}
+}
+@keyframes animatewall {
+  from{transform: scale(2);}
+  to{transform: scale(1);}
+}
+@keyframes animatepathnode {
+  from{background-color: darkgreen}
+  to{background-color: yellow}
+}
