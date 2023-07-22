@@ -5,4 +5,5 @@ a path finding algorithms visualizer made with reactjs
 * Depth-First Search
 * Breadth-First Search
 * A Star
-live https://reactpathfindvisualizer.netlify.app
+
+[view live](https://reactpathfindvisualizer.netlify.app)
